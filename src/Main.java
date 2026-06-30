@@ -60,5 +60,15 @@ public class Main {
         student1.printInfo();
         System.out.println("-------");
         student2.printInfo();
+//        --------------
+
+        Book book1 = new Book();
+        System.out.println("--------");
+        System.out.println("Book");
+        System.out.println("--------");
+        book1.printInfo();
+        Book book2 = new Book("B001","Java Programming","John Smith",450.00);
+        System.out.println("--------");
+        book2.printInfo();
     }
 }
